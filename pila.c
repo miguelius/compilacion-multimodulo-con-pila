@@ -1,3 +1,9 @@
+/**
+ * Implementación ingenua de pila.
+ * 
+ * Plagada de bugs! No apta para producción.
+ * 
+ */
 #include <stdlib.h>
 #include <assert.h>
 #include "pila.h"
