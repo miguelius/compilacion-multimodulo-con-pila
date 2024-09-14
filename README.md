@@ -4,11 +4,11 @@ Programa en C que recibe una lista de palabras por argumento y la imprime invert
 
 Si bien este programa se puede escribir sin usar una pila, la idea es que veamos las características de C de modularizar nuestros programas.
 
-- pila.h -> interfaz de la pila
-- pila.c -> módulo de pila usando un vector
-- lic-clasico.c -> programa que reconoce el lenguaje generado por las producciones S -> aSb | ab.
-- severla.c -> programa
-- Makefile -> script para compilar todo rapidito.
+- pila.h: interfaz de la pila
+- pila.c: módulo de pila usando un vector
+- lic-clasico.c: programa que **casi** reconoce el lenguaje generado por las producciones S -> aSb | ab. Analizar y proponer una mejora!
+- severla.c: programa
+- Makefile: script para compilar todo rapidito.
 
 ## Compilación manual
 
